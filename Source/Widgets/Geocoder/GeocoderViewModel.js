@@ -60,7 +60,7 @@ function GeocoderViewModel(options) {
 
   this._handleArrowDown = handleArrowDown;
   this._handleArrowUp = handleArrowUp;
-  this.destinationCoords = null;
+  this.destinationCoords = GeocoderViewModel.destinationCoords;
 
   const that = this;
 
