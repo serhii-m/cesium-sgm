@@ -134,7 +134,7 @@
     "yargs": "^17.0.1"
   },
   "scripts": {
-    "prepare": "gulp prepare && cd .. && husky install",
+    "prepare": "gulp prepare && husky install",
     "start": "node server.js",
     "start-public": "node server.js --public",
     "build": "gulp build",
