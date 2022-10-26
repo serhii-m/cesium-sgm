@@ -291,6 +291,8 @@ Object.defineProperties(GeocoderViewModel.prototype, {
     get: function () {
       return this._selectedSuggestion;
     },
+  },
+  
   finalCoords: {
     get: function () {
       return this.__destinationCoords;
