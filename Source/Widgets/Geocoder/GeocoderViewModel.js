@@ -295,7 +295,7 @@ Object.defineProperties(GeocoderViewModel.prototype, {
   
   finalCoords: {
     get: function () {
-      return this.__destinationCoords;
+      return this._destinationCoords;
     },
   },
 
