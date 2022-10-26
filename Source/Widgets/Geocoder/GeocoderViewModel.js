@@ -60,7 +60,7 @@ function GeocoderViewModel(options) {
 
   this._handleArrowDown = handleArrowDown;
   this._handleArrowUp = handleArrowUp;
-  this.destinationCoords = GeocoderViewModel.destinationCoords;
+  this._destinationCoords = GeocoderViewModel.destinationCoords;
 
   const that = this;
 
@@ -290,6 +290,10 @@ Object.defineProperties(GeocoderViewModel.prototype, {
   selectedSuggestion: {
     get: function () {
       return this._selectedSuggestion;
+    },
+  finalCoords: {
+    get: function () {
+      return this.__destinationCoords;
     },
   },
 
